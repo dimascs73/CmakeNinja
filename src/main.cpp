@@ -10,7 +10,7 @@ int main()
 {
     
     XLDocument doc;
-    doc.create("Testing.xlsx", XLForceOverwrite);
+    doc.create("F:/Testing.xlsx", XLForceOverwrite);
     auto wks = doc.workbook().worksheet("Sheet1");
 
     wks.cell("A1").value() = "Hello, OpenXLSX!";
