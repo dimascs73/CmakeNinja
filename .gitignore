@@ -38,7 +38,10 @@ build/
 
 [Bb][Uu][Ii][Ll][Dd]
 
+lib/OpenXLSX/
+
 
 # Batch files
 
 *.bat
+src/main.cpp
